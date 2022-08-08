@@ -162,6 +162,14 @@ out/
 # mpeltonen/sbt-idea plugin
 .idea_modules/
 
+# terraform
+terraform.tfvars
+terraform.tfstate
+terraform.tfstate.backup
+.terraform
+.idea
+.git
+
 # JIRA plugin
 atlassian-ide-plugin.xml
 
@@ -187,3 +195,4 @@ fabric.properties
 # .idea
 
 get-pip.py
+
